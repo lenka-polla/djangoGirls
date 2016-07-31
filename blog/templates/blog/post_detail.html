@@ -1,6 +1,11 @@
 {% extends 'home/base.html' %}
 
 {% block content %}
+	{% if user.is_authenticated %}
+	<a href="{% url 'post_edit' pk=post.pk %}">Click here to edit this post.</span></a>
+	{% endif %}
+
+
     <div class="post">
         {% if post.published_date %}
             <div class="date">
