@@ -183,20 +183,8 @@ ul.topnav li.icon {
 
 		}
 
-/*~~~~ PREVIEW ~~~~*/
-
-.row {
-	padding-top: 20px;
-}
-.row img {
-	opacity: .6;
-}
-.row img:hover {
-	opacity: 1;
-}
-
-#images h2 {
-	font-style: italic;
-	font-size: 25px;
-	color: 	#333333;
+/*~~~~ MAIN CONTENT ~~~~*/
+#main-content {
+	max-width: 600px;
+	margin: 0 auto;
 }
